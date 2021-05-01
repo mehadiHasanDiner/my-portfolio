@@ -27,8 +27,8 @@ const ImageSection = () => {
                         <p> : Holding # 696/1, Morkun Memberpara Road,Tongi, Gazipur-1710</p>
                         <p> : Bangladeshi</p>
                     </div>
-
                 </div>
+                <button className="btn">Download</button>
             </div>
         </div>
     );
