@@ -1,8 +1,7 @@
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faIdBadge } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -10,21 +9,21 @@ const Home = () => {
             <header className="hero">
                 <h1 className="hero-text">
                     Hi, I am
-                    <span> ... Developer</span>
+                    <span> ...Web Developer</span>
                 </h1>
                 <p className="home-sub-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero deserunt repellendus fugiat corporis maiores delectus atque, nulla aut pariatur quo iusto, animi accusamus, facilis harum dolorum! Recusandae debitis libero itaque eum sed dicta corrupti ullam? Magni maiores debitis distinctio dolorem?
+                As a Front-end Web developer I have knowledge to building Web Applications and Web App by using React JS, Node JS, GraphQL HTML5, CSS3 and various web technologies. <br/><br/>Vanilla JavaScript and JavaScript libraries (React JS, Node JS, jQuery), HTML5, CSS3, WordPress, Front End Development and Leadership.
                 </p>
                 <div className="icons">
-                    <Link className="icon-holder">
+                    <a href="https://www.linkedin.com/in/mehadi-hasan-803012211/" rel="noreferrer" target="_blank" className="icon-holder">
                         <FontAwesomeIcon icon={faLinkedinIn} className="icon linked"/>
-                    </Link>
-                    <Link className="icon-holder">
+                    </a>
+                    <a href="https://github.com/mehadiHasanDiner" rel="noreferrer" target="_blank" className="icon-holder">
                         <FontAwesomeIcon icon={faGithub} className="icon git"/>
-                    </Link>
-                    <Link className="icon-holder">
-                        <FontAwesomeIcon icon={faGlobe} className="icon web"/>
-                    </Link>
+                    </a>
+                    <a href = "https://drive.google.com/file/d/1zUsKrY1fybQMND-pCvHCE1rFRqTF0iP4/view?usp=sharing" rel="noreferrer" target="_blank"  className="icon-holder">
+                        <FontAwesomeIcon icon={faIdBadge} className="icon resume"/>
+                    </a>
                 </div>
             </header>
         </div>

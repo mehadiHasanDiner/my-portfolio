@@ -72,10 +72,34 @@
 }
 
 .btn-project{
-    padding: 1rem 1.5rem;
+    padding: .6rem 1rem;
     background-color: #411a41;
     color: white;
     border: none;
     outline: none;
     cursor: pointer;
+    font-size: inherit;
+    font-family: inherit;
+    margin-bottom: 1rem;
+    transition: all .3s ease-in-out;
+    &:not(:last-child){
+        margin-right: 1rem;
+    }
+    &:hover{
+        background-color: #fc7600;
+    }
+    &:active{
+        background-color: #fc7600;
+    }
+    &:focus{
+        background-color: #fc7600;
+    }
 }
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+

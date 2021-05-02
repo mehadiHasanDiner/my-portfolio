@@ -40,6 +40,16 @@ const AllProjects = [
         title: 'React Routing'
     },
     {
+        id: 7,
+        category: 'Use API',
+        link1: 'https://mehadihasandiner.github.io/assignment-5_Hungry-Monster/index.html',
+        link2: 'https://github.com/mehadiHasanDiner/assignment-5_Hungry-Monster',
+        icon1: 'Live',
+        icon2: 'Git',
+        image: project7,
+        title: 'Use API'
+    },
+    {
         id: 8,
         category: 'Vanilla JavaScript',
         link1: 'https://mehadihasandiner.github.io/milestone-4_assignment-4/',
@@ -80,16 +90,7 @@ const AllProjects = [
         image: project6,
         title: 'React using Fake data'
     },
-    {
-        id: 7,
-        category: 'Use API',
-        link1: 'https://mehadihasandiner.github.io/assignment-5_Hungry-Monster/index.html',
-        link2: 'https://github.com/mehadiHasanDiner/assignment-5_Hungry-Monster',
-        icon1: 'Live',
-        icon2: 'Git',
-        image: project7,
-        title: 'Use API'
-    },
+
     
     {
         id: 9,

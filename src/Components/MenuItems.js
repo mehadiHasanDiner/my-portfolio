@@ -16,7 +16,7 @@ const MenuItems = ({menuItems}) => {
                             </ul>
                         </div>
                         <h5>{item.title}</h5>
-                        <p>Placeholder Paragraph</p>
+                        {/* <p>Placeholder Paragraph</p> */}
                     </div>
                 })
             }

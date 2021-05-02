@@ -8,6 +8,7 @@ const Navbar = () => {
                 <div className="profile">
                     <img src={avatar} alt="" />
                 </div>
+                <h2 style={{marginBottom:'1.5rem', marginTop:'.5rem'}}>My Portfolio</h2>
                 <ul className="nav-items">
                     <li className="nav-item">
                         <NavLink to="/" exact activeClassName="active">
@@ -17,11 +18,6 @@ const Navbar = () => {
                     <li className="nav-item">
                         <NavLink to="/about" exact activeClassName="active">
                             About
-                        </NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink to="/skills" exact activeClassName="active">
-                            Skills
                         </NavLink>
                     </li>
                     <li className="nav-item">
@@ -35,9 +31,9 @@ const Navbar = () => {
                         </NavLink>
                     </li>
                 </ul>
-                <footer className="footer">
+                {/* <footer className="footer">
                     <p>@ 2021 Lorem, ipsum dolor.</p>
-                </footer>
+                </footer> */}
             </nav>
 
         </div>

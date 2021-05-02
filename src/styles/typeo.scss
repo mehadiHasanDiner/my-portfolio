@@ -12,6 +12,8 @@
     color: black;
     text-align: center;
     font-size: 3.6rem;
+    margin-bottom: 2rem;
+
     span{
         color: purple;
     }
@@ -39,8 +41,8 @@
         .git:hover{
             color: purple;
         }
-        .web:hover{
-            color: green;
+        .resume:hover{
+            color: #fc7600;
         }
     }
 }
