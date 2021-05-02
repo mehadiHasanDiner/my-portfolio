@@ -10,8 +10,8 @@ const MenuItems = ({menuItems}) => {
                             <img src={item.image} alt=""/>
                             <ul className="hover-items">
                                 <li>
-                                    <a href={item.link1}>{item.icon1}</a>
-                                    <a href={item.link2}>{item.icon2}</a>
+                                    <a href={item.link1} rel="noreferrer" target="_blank" >{item.icon1}</a>
+                                    <a href={item.link2} rel="noreferrer" target="_blank" >{item.icon2}</a>
                                 </li>
                             </ul>
                         </div>
