@@ -1,0 +1,45 @@
+.contact-form {
+    .contact-section {
+        width: 80%;
+        float: left;
+        margin-left: 5%;
+        padding: 5%;
+    }
+    h2 {
+        text-align: center;
+    }
+    input, select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #fc7600;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    textarea#message {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #fc7600;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+
+      input[type=submit] {
+        width: 100%;
+        background-color: #fc7600;
+        font-size: 18px;
+        color: white;
+        padding: 10px 16px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      input[type=submit]:hover {
+        background-color: #b3158c;
+      }
+}
