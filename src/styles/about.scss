@@ -22,6 +22,13 @@
             padding: 1rem 0;
         }
     }
+    @media screen and (max-width: 1400px){
+        flex-direction: column;
+        .about-info{
+            margin-left: 0;
+            margin-top: 1rem;
+        }
+    }
 }
 
 .about-details{
@@ -61,7 +68,7 @@
     &:hover::after{
         width: 100%;
     }
-}
+} 
 
 .skills-container{
     display: grid;
@@ -69,6 +76,9 @@
     column-gap: 4rem;
     row-gap: 1rem;
     margin: 4rem 0;
+        @media screen and (max-width: 1100px){
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 .btn-project{
@@ -101,5 +111,11 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    @media screen and (max-width: 1270px){
+        margin: 2rem 5rem;
+    }
+    @media screen and (max-width: 1100px){
+        margin: 2rem 2rem;
+    }
 }
 

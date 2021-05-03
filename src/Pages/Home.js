@@ -2,15 +2,30 @@ import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faIdBadge } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import Typical from 'react-typical';
 
 const Home = () => {
     return (
         <div className="Home">
             <header className="hero">
-                <h1 className="hero-text">
-                    Hi, I am
-                    <span> ...Web Developer</span>
-                </h1>
+                <h2 className="hero-text">
+                    Hi, I am {' '}
+                    <span>
+                    <Typical loop={Infinity}
+                    wrapper='b'
+                    steps={[
+                        'Mehadi Hasan',
+                        1500,
+                        'a Web Developer',
+                        1500,
+                        'a React Developer',
+                        1500,
+                        'a Web Designer',
+                        1500                     
+                    ]}
+                    />
+                    </span>
+                </h2>
                 <p className="home-sub-text">
                 As a Front-end Web developer I have knowledge to building Web Applications and Web App by using React JS, Node JS, GraphQL HTML5, CSS3 and various web technologies. <br/><br/>Vanilla JavaScript and JavaScript libraries (React JS, Node JS, jQuery), HTML5, CSS3, WordPress, Front End Development and Leadership.
                 </p>

@@ -13,16 +13,16 @@ const ImageSection = () => {
                 <div className="about-details">
                     <div className="left-section">
                         <p>Full Name</p>
+                        <p>Mobile</p>
                         <p>Age</p>
                         <p>Nationality</p>
-                        <p>Address</p>
                         <p>Language</p>
                     </div>
                     <div className="right-section">
                         <p> : Md. Mehadi Hasan</p>
-                        <p> : 32</p>
+                        <p> : 8801922940626</p>
+                        <p> : 32 years</p>
                         <p> : Bangladeshi</p>
-                        <p> : House # 696/1, Morkun,Tongi, Gazipur-1710</p>
                         <p> : Bangla, English, Hindi, Urdo</p>
                     </div>
                 </div>
