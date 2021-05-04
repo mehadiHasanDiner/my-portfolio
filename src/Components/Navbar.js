@@ -8,7 +8,7 @@ const Navbar = () => {
                 <div className="profile">
                     <img src={avatar} alt="" />
                 </div>
-                <h2 style={{marginBottom:'1.5rem', marginTop:'.5rem'}}>My Portfolio</h2>
+                <h2 style={{marginBottom:'1.5rem', marginTop:'.5rem'}}>Mehadi Hasan</h2>
                 <ul className="nav-items">
                     <li className="nav-item">
                         <NavLink to="/" exact activeClassName="active">

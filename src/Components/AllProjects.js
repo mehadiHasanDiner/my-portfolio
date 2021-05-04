@@ -32,7 +32,7 @@ const AllProjects = [
     {
         id: 4,
         category: 'React JS',
-        link1: 'https://nifty-pare-d23f36.netlify.app/',
+        link1: 'https://angry-blackwell-fb1053.netlify.app/',
         link2: 'https://github.com/mehadiHasanDiner/react-router-assignment-8',
         icon1: 'Live',
         icon2: 'Git',
